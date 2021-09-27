@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream POS App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/mapbox-fixes.css" />
+    <style></style>
+  </head>
+
+  <body class="bg-gray-500">
+    <div id="mapid" class="w-full h-screen"></div>
+    <div
+      class="
+        lista
+        absolute
+        left-8
+        top-8
+        z-10
+        bg-white bg-opacity-80
+        bottom-8
+        p-4
+        overflow-y-auto
+      "
+    ></div>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="restaurants.js"></script>
+  </body>
+</html>

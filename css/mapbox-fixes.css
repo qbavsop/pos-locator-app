@@ -1,0 +1,38 @@
+.link.active {
+  background-color: #cc458a;
+  color: white;
+}
+.marker {
+  border: none;
+  cursor: pointer;
+  height: 77px;
+  width: 60px;
+  background-image: url(../img/mappin.png);
+}
+.mapboxgl-popup-content {
+  background-color: #cc458a;
+  color: white;
+}
+.mapboxgl-popup-content img {
+  object-fit: cover;
+  width: 280px;
+  height: 280px;
+  display: block;
+  overflow: hidden;
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: #cc458a;
+}
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: #cc458a;
+}
+.mapboxgl-popup-close-button,
+.mapboxgl-popup-close-button:hover {
+  font-size: 2rem;
+  padding: 5px;
+  background-color: #cc458a;
+  border-radius: 50%;
+  right: -10px;
+  top: -10px;
+  outline: none;
+}

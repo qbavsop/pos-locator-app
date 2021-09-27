@@ -1,0 +1,19 @@
+{
+  "name": "poslocator-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.23.0"
+  },
+  "git": {
+  "scripts": {
+    "pre-push": "surge --project ./ --domain poslocator.surge.sh"
+  }
+}
+}
