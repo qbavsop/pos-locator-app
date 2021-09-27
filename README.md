@@ -1,7 +1,7 @@
 # POS locator
 
 Application for visualizing sales points of "Kosmos ice-creams"
-https://poslocator.surge.sh/
+https://poslocator.netlify.app/
 
 # Backend ( Strapi / MongoDB / Heroku )
 
