@@ -4,15 +4,15 @@ let myDataFeed = [];
 let map;
 let links;
 
-initLocation = [21.011974811553955, 52.24554101223329];
-initZoom = 10;
+const initLocation = [21.011974811553955, 52.24554101223329];
+const initZoom = 10;
 
 /*
   initialize the Map
 */
 
 function initMap() {
-  console.log(maptoken);
+  console.log(MAPTOKEN);
   mapboxgl.accessToken =
       "pk.eyJ1IjoianNvYmN6YWsiLCJhIjoiY2szN2N4NmNqMGE5dTNscWVwYjh2MDN6ZSJ9.97m5-DLCT9vVq7eLCG5IqQ";
   map = new mapboxgl.Map({
