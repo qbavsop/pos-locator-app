@@ -12,9 +12,7 @@ const initZoom = 10;
 */
 
 function initMap() {
-  console.log(MAPTOKEN);
-  mapboxgl.accessToken =
-      "pk.eyJ1IjoianNvYmN6YWsiLCJhIjoiY2szN2N4NmNqMGE5dTNscWVwYjh2MDN6ZSJ9.97m5-DLCT9vVq7eLCG5IqQ";
+  mapboxgl.accessToken = MAPTOKEN;
   map = new mapboxgl.Map({
       container: "mapid",
       style: "mapbox://styles/mapbox/light-v10",
