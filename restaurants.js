@@ -1,4 +1,4 @@
-import maptoken from "./token.js"
+import MAPTOKEN from "./token.js"
 
 let myDataFeed = [];
 let map;
