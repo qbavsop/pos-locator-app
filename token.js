@@ -1,0 +1,2 @@
+const maptoken = "pk.eyJ1IjoianNvYmN6YWsiLCJhIjoiY2szN2N4NmNqMGE5dTNscWVwYjh2MDN6ZSJ9.97m5-DLCT9vVq7eLCG5IqQ"
+export default maptoken;
