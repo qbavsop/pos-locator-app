@@ -9,12 +9,12 @@ https://poslocator.netlify.app/
 Strapi headless CMS ( https://strapi.io/ ) is used as backend to create RestfulAPI
 with it's database set on mongoDB ( https://www.mongodb.com/ )
 Cloudinary ( https://cloudinary.com/ ) is used as media hosting server
-and finally everything is tied together on Heroku ( https://cloudinary.com/ ) 
+and finally everything is tied together on Heroku ( https://heroku.com/ ) 
 with auto deploys set from github repository
 
 backend url - https://poslocator.herokuapp.com/
 
-API - https://poslocator.herokuapp.com/pos
+API endpoint - https://poslocator.herokuapp.com/pos
 
 # Frontend ( Mapbox / VanillaJS )
 
